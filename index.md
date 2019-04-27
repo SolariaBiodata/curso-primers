@@ -56,12 +56,12 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 
 ### 2.2 Descarga de esta secuencia en formato fasta
 
-1. Crea una carpeta en tu escritorio llamada Secuencias_NCBI
+1. Crea una carpeta en tu escritorio llamada ``Secuencias_NCBI``
 2. Dar click en la pestaña Send to, se ubica en la parte superior derecha
 3. Seleccionar la opción file
-4. En la pestaña FORMAT, elegir la opción FASTA
+4. En la pestaña FORMAT, elegir la opción ``FASTA``
 5. Dar click en Create file
-6. Guardar como AB083043.1.fasta
+6. Guardar como ``AB083043.1.fasta``
 7. Abrir el archivo con el programa Bloq de Notas
 
 #### Discusión
@@ -71,17 +71,17 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 
 ### 2.3 Descarga de varias secuencias
 
-1. Dar click en el botón de Regresar de tu navegador para volver a la búsqueda de NCBI 
+1. Dar click en el botón de Regresar de tu navegador para volver a la búsqueda de NCBI
 2. Dar click en la pestaña Send to, se ubica en la parte superior derecha
 3. Seleccionar la opción file
 4. En la pestaña FORMAT, elegir la opción FASTA
 5. Dar click en Create file
-6. Guardar como stx1_todas.fasta
+6. Guardar como ``stx1_todas.fasta``
 7. Abrir el archivo con el programa Bloq de Notas
 
 #### Discusión
 
-¿Qué contiene el archivo descargado? 
+¿Qué contiene el archivo descargado?
 ¿Es sencillo de visualizar?
 
 
@@ -94,7 +94,7 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 5. Dar un enter (o salto de línea) para separar las secuencias nucleotídicas de los headers
 6. Guarda el archivo editado (Ctrl+G)
 
-## 4. Herramienta de Alineamiento BLAST
+## 3. Herramienta de Alineamiento BLAST
 
 1. De tu archivo ``stx1_todas.fasta``, copiar el No. de acceso de tu último registro ``AB012101.1``
 2. Ingresar al NCBI, seleccionar la base de datos Nucleotide  y pegar el No. de Acceso en  el cuadro de diálogo
@@ -113,5 +113,5 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 - ¿Cuál es el primer Hit encontrado?
 - ¿Con qué tipo de secuencias alínea nuestra búsqueda?
 
-## Ejercicio Final
+## 4. Ejercicio Final
 En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, localiza los iniciadores llamados ``slt-I`` (diseñados para identificar la toxina Shiga-Like en E. coli ) y realiza un BLAST para cada uno de ellos. Únicamente con los datos arrojados por BLAST, ¿Consideras confiables a estos iniciadores?
