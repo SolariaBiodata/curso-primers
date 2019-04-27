@@ -113,3 +113,150 @@ Para poder realizar este ejercicio, necesitaremos:
 
 ## 4. Ejercicio Final
 En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, localiza los iniciadores llamados ``slt-I`` (diseñados para identificar la toxina Shiga-Like en _E. coli_ ) y realiza un BLAST para cada uno de ellos. Únicamente con los datos arrojados por BLAST, ¿Consideras confiables a estos iniciadores?
+
+
+## 5. Diseño con Primer 3
+
+### Preparación
+
+#### NCBI
+
+1. Ingresar al NCBI: https://www.ncbi.nlm.nih.gov/
+2. Base de datos Nucleotide
+3. Teclear ``Cycas necrotic stunt virus RNA 2``
+4. Dar click en el número de acceso ``NC_003792.2``
+5. Copiar la secuencia completa
+
+#### Primer 3
+
+1. Ingresar a Primer3 http://bioinfo.ut.ee/primer3-0.4.0/
+2. Pegar la secuencia copiada anteriormente en el cuadro del programa
+
+
+### 5.1 Diseño de Punto Final
+1. Dar click en Pick primers
+2. Resultado: Producto de ``188pb``
+3. Discutir valores de ``Any y 3´``
+
+### 5.1.1 Ajuste de Parámetros
+1. Ajustar los siguientes parámetros
+2. Seleccionar 58, 60 y 63 °C (Min, Opt, Max) en Primer Tm
+3. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+4. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
+5. Colocar Max poly X en tres (3)
+6. Resultado: Producto de 541pb
+7. Discutir valores de Any y 3´
+
+### 5.1.2 Ajuste de Parámetros (Pt. 2)
+1. Ajustar los siguientes parámetros
+2. Seleccionar 58, 60 y 60 °C (Min, Opt, Max) en Primer Tm
+3. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+4. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
+5. Colocar Max poly X en tres (3)
+6. Resultado: Producto de 996pb
+7. Discutir valores de Any y 3´
+
+### 5.1.3 Ajuste de Parámetros (Pt. 3)
+1. Ajustar los siguientes parámetros
+2. Seleccionar 59, 60 y 60 °C (Min, Opt, Max) en Primer Tm
+3. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+4. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
+5. Colocar Max poly X en tres (3)
+6. Resultado: No se generan Primers
+7. Discutir valores de Any y 3´
+
+### 5.2 PCR cuantitativa (sin sondas)
+
+### 5.2.1
+1. Ajustar los siguientes parámetros
+2. Colocar en Product Size Ranges 80-120
+3. Seleccionar 57, 60 y 60 °C (Min, Opt, Max) en Primer Tm
+4. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+5. Colocar tres (3) para Max self Complementarity y cero (0) para Max 3´self complementarity
+6. Colocar Max poly X en tres (3)
+7. Resultado: Producto de 99pb
+8. Discutir valores de Any y 3´
+
+### 5.2.2
+1. Ajustar los siguientes parámetros
+2. Colocar en Product Size Ranges 80-120
+3. Seleccionar 57, 60 y 63 °C (Min, Opt, Max) en Primer Tm
+4. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+5. Colocar tres (3) para Max self Complementarity y cero (0) para Max 3´self complementarity
+6. Colocar Max poly X en tres (3)
+7. Resultado: Producto de 115pb
+8. Discutir valores de Any y 3´
+
+### 5.2.3
+1. Ajustar los siguientes parámetros
+2. Colocar en Product Size Ranges 80-120
+3. Seleccionar 57, 60 y 63 °C (Min, Opt, Max) en Primer Tm
+4. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+5. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
+6. Colocar Max poly X en tres (3)
+7. Resultado: No se generan primers
+8. Discutir valores de Any y 3´
+
+### 5.3 PCR Tiempo Real (con sondas)
+
+### 5.3.1 Ejercicio 1
+1. Ajustar los siguientes parámetros
+2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
+3. Colocar en Product Size Ranges 80-120
+4. Seleccionar 57, 60 y 63 °C (Min, Opt, Max) en Primer Tm
+5. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
+6. Colocar tres (3) para Max self Complementarity y cero (0) para Max 3´self complementarity
+7. Colocar Max poly X en tres (3)
+8. Dirigirse a Hyb Oligo (Internal Oligo) General conditions
+9. Seleccionar 67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo Tm
+10. Ajustar Hyb Oligo Max poly-X a un valor menor a 5 (4)
+11. Ajustar el Hyb Oligo Self Complementarity y Max 3´Self Complementarity a doce (12)
+12. Resultado: Producto de 115pb
+13. Discutir valores de Any y 3´
+
+### 5.3.2 Ejercicio 2
+1. Ajustar los siguientes parámetros
+2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
+3. Dirigirse a Hyb Oligo (Internal Oligo) General conditions
+4. Seleccionar 67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo
+5. Ajustar Hyb Oligo Max poly-X a un valor menor a 5 (4)
+6. Ajustar el Hyb Oligo Self Complementarity a cinco (5) y Max 3´Self Complementarity a cero (0)
+7. Resultado: Producto de 99pb
+8. Discutir valores de Any y 3
+
+### 5.3.3 Ejercicio 3
+1. Ajustar los siguientes parámetros
+2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
+3. Dirigirse a Hyb Oligo (Internal Oligo) General conditions
+4. Seleccionar 67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo
+5. Ajustar Hyb Oligo Max poly-X a un valor menor a 5 (4)
+6. Ajustar el Hyb Oligo Self Complementarity a tres (3) y Max 3´Self Complementarity a cero (0)
+7. Resultado: Producto de 99pb
+8. Discutir valores de Any y 3
+
+### 5.4 Evaluación de Primers
+
+### Parte 1
+
+#### NCBI
+1. Abrir el árticulo: Sánchez-Navarro JA, Aparicio F, Herranz MC, Minafra A, Myrta A, Pallás V (2005) Simultaneus detection and identification of eight Stone fruit viruses by one-step RT-PCR. European Journal of Plant Pathology 111:77-84.
+2. Ingresar al NCBI: https://www.ncbi.nlm.nih.gov/
+3. Base de datos Nucleotide
+
+### 5.4.1 Ejercicio 1
+1. Teclear el número de acceso U15608
+2. Copiar la secuencia completa
+3. Ingresar a Pimer3 http://bioinfo.ut.ee/primer3-0.4.0/
+4. Pegar la secuencia copiada anteriormente en el cuadro del programa
+5. Seleccionar la casilla Pick left primer, or use left primer below y colocar los primers del artículo para el virus ApMV
+6. Dar click en Pick primers y discutir el resultado.
+7. Con lo que has aprendido hasta ahora, intenta mejorar los parámetros obtenidos.
+
+### 5.4.2 Ejercicio 2
+1. Teclear el número de acceso NC003453
+2. Copiar la secuencia completa
+3. Ingresar a Pimer3 http://bioinfo.ut.ee/primer3-0.4.0/
+4. Pegar la secuencia copiada anteriormente en el cuadro del programa
+5. Seleccionar la casilla Pick left primer, or use left primer below y colocar los primers del artículo para el virus APLPV
+6. Dar click en Pick primers y discutir el resultado.
+7. Con lo que has aprendido hasta ahora, intenta mejorar los parámetros obtenidos.
