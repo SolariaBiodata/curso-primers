@@ -22,13 +22,11 @@ Para poder realizar este ejercicio, necesitaremos:
 ###  1.2 Dirigir la búsqueda a una región (o gen) de interés
 
 1. Teclear ``Escherichia coli[Organism] AND stx1``
-
 > Esta sigue siendo una búsqueda muy general, vamos a hacerla más específica
-
 2. Dar click en ``Advanced``
 3. En el historial de búsquedas, aparecen las más recientes, dar click en add en el primer registro
 4. En el Builder, seleccionar ``Organism`` en la primer pestaña
-5. Seleccionar ``Gene name ``en la segunda pestaña y teclear`` stx1`` en su cuadro de diálogo
+5. Seleccionar ``Gene name ``en la segunda pestaña y teclear `` stx1`` en su cuadro de diálogo
 6. Realizar la búsqueda nuevamente
 7. Por último, añadir a la búsqueda ``AND complete`` para que el término final sea ``(Escherichia coli[Organism]) AND stx1[Gene Name] AND complete``
 
@@ -38,8 +36,8 @@ Para poder realizar este ejercicio, necesitaremos:
 ## 2. Información de secuencias y descarga de archivos fasta
 
 ###  2.1 Visualización de Secuencia
-En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O157:H7 stx1 genes for shiga toxin 1 variant A subunit, shiga toxin 1 B subunit,complete cds, strain:AI2000/182
-(No Acceso: AB083043.1)``
+1. En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O157:H7 stx1 genes for shiga toxin 1 variant A subunit, shiga toxin 1 B subunit,complete cds, strain:AI2000/182 ``
+> (No Acceso: ``AB083043.1``)
 
 #### Discusión
 
@@ -60,9 +58,9 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 2. Dar click en la pestaña Send to, se ubica en la parte superior derecha
 3. Seleccionar la opción file
 4. En la pestaña FORMAT, elegir la opción ``FASTA``
-5. Dar click en Create file
+5. Dar click en ``Create file``
 6. Guardar como ``AB083043.1.fasta``
-7. Abrir el archivo con el programa Bloq de Notas
+7. Abrir el archivo con el programa Bloq de Notas o un editor de texto simple.
 
 #### Discusión
 
@@ -88,11 +86,11 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 ### 2.4 Edición de archivos multifasta
 
 1. En el menú del Bloc de Notas, dar click en ``Edición`` y después ``Buscar``
-2. En el cuadro de diálogo, colocar un símbolo de  >
-3. Dar enter antes de cada “>” que encuentres
+2. En el cuadro de diálogo, colocar un símbolo de  ``>``
+3. Dar Enter antes de cada ``>`` que encuentres
 4. Editar los headers por nombres más sencillos (pero informativos)
 5. Dar un enter (o salto de línea) para separar las secuencias nucleotídicas de los headers
-6. Guarda el archivo editado (Ctrl+G)
+6. Guarda el archivo editado ``(Ctrl+G)``
 
 ## 3. Herramienta de Alineamiento BLAST
 
@@ -114,4 +112,4 @@ En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O15
 - ¿Con qué tipo de secuencias alínea nuestra búsqueda?
 
 ## 4. Ejercicio Final
-En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, localiza los iniciadores llamados ``slt-I`` (diseñados para identificar la toxina Shiga-Like en E. coli ) y realiza un BLAST para cada uno de ellos. Únicamente con los datos arrojados por BLAST, ¿Consideras confiables a estos iniciadores?
+En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, localiza los iniciadores llamados ``slt-I`` (diseñados para identificar la toxina Shiga-Like en _E. coli_ ) y realiza un BLAST para cada uno de ellos. Únicamente con los datos arrojados por BLAST, ¿Consideras confiables a estos iniciadores?
