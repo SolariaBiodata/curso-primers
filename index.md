@@ -54,7 +54,7 @@
 
 ### 1.2.1
 1. Ajustar los siguientes parámetros
-2. Colocar en Product Size Ranges 80-120
+2. Colocar en Product Size Ranges ``80-120``
 3. Seleccionar ``57, 60 y 60 °C (Min, Opt, Max) en Primer Tm``
 4. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
 5. Colocar ``tres (3)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
@@ -64,7 +64,7 @@
 
 ### 1.2.2
 1. Ajustar los siguientes parámetros
-2. Colocar en Product Size Ranges 80-120
+2. Colocar en Product Size Ranges ``80-120``
 3. Seleccionar ``57, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
 4. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
 5. Colocar ``tres (3)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
@@ -74,7 +74,7 @@
 
 ### 1.2.3
 1. Ajustar los siguientes parámetros
-2. Colocar en Product Size Ranges 80-120
+2. Colocar en Product Size Ranges ``80-120``
 3. Seleccionar ``57, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
 4. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
 5. Colocar ``dos (2)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
@@ -87,7 +87,7 @@
 ### 1.3.1 Ejercicio 1
 1. Ajustar los siguientes parámetros
 2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
-3. Colocar en Product Size Ranges 80-120
+3. Colocar en Product Size Ranges ``80-120``
 4. Seleccionar ``57, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
 5. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
 6. Colocar ``tres (3)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
