@@ -132,6 +132,7 @@ Para poder realizar este ejercicio, necesitaremos:
 3. Abrir la Base de datos `Nucleotide`
 4. Teclear `Escherichia coli` en el campo de búsqueda
 
+### Ejercicio 1
 ### 2.1 Búsqueda Avanzada
 
 1. Dar click en ``Advanced``
@@ -152,90 +153,49 @@ Para poder realizar este ejercicio, necesitaremos:
 #### Discusión
 ¿Cuantas secuencias resultaron al final de esta búsqueda específica?
 
+### 2.3 Descarga de secuencias
+1. Dar click en ``send to`` 
+2. Dar click en ``File`` --> ``Format`` --> ``FASTA``  --> ``Create file``
+3. Guardar las secuencias en tu computadora
+
+>Ya tienes tu propia base de datos
+
 ## 3. Información de secuencias y descarga de archivos fasta
 
-###  3.1 Visualización de Secuencia
-1. En la búsqueda anterior, dar click en el primer registro ``Escherichia coli O157:H7 stx1 genes for shiga toxin 1 variant A subunit, shiga toxin 1 B subunit,complete cds, strain:AI2000/182 ``
-> (No Acceso: ``AB083043.1``)
+###  3.1 Búsqueda de secuencias específicas
+1. En la base de datos >nucleotide buscar ``SARS-COV-2 AND S AND complete`` 
+> ¿Qué secuencias aparecen?
+
+2. Acceder al primer registro y buscar la proteína "S"
+3. Dar click en la palabra ``gene`` al lado de la secuencia de la proteína
+4. En la parte inferior, dar click en ``Display FASTA``
+5. Copiar la secuencia
+6. Ingresar a BLAST
+7. Pegar la secuencia y en la parte inferior dar click en ``BLAST``
 
 #### Discusión
+>¿Qué resultados aparecen?
 
-¿Qué información relevante aparece? Ubica los siguientes datos:
+###Descarga de secuencias (hits) desde BLAST
+1. Selecciona (tick) 5 secuencias de tu interés
+2. Da click en ``Download`` --> ``FASTA (aligned sequences)``
+3. Guarda las secuencias en tu computadora
 
-- No. de Acceso
-- Tamaño de la secuencia
-- Organismo al que pertenece
-- Autores
-- Publicación relacionada
-- Año de publicación o año de registro de la secuencia
-- Regiones codificantes
-- Además de la información ¿Qué otras herramientas aparecen en esta página?
+>Ya tienes otra base de datos ;)
 
-### 3.2 Descarga de esta secuencia en formato fasta
 
-1. Crea una carpeta en tu escritorio llamada ``Secuencias_NCBI``
-2. Dar click en la pestaña Send to, se ubica en la parte superior derecha
-3. Seleccionar la opción file
-4. En la pestaña FORMAT, elegir la opción ``FASTA``
-5. Dar click en ``Create file``
-6. Guardar como ``AB083043.1.fasta``
-7. Abrir el archivo con el programa Bloq de Notas o un editor de texto simple.
+## 4. BLAST a primers y sondas
+
+1. Del archivo del protocolo de Berlín copia la secuencia de la sonda confirmatoria para SARS-COV-2
+2. Ingresa a BLAST, pega la secuencia y da click en ``BLAST``
 
 #### Discusión
-
-- ¿Qué contiene el archivo descargado?
-- ¿Es sencillo de visualizar?
-
-### 3.3 Descarga de varias secuencias
-
-1. Dar click en el botón de Regresar de tu navegador para volver a la búsqueda de NCBI
-2. Dar click en la pestaña Send to, se ubica en la parte superior derecha
-3. Seleccionar la opción file
-4. En la pestaña FORMAT, elegir la opción FASTA
-5. Dar click en Create file
-6. Guardar como ``stx1_todas.fasta``
-7. Abrir el archivo con el programa Bloq de Notas
-
-#### Discusión
-
-¿Qué contiene el archivo descargado?
-¿Es sencillo de visualizar?
-
-
-### 3.4 Edición de archivos multifasta
-
-1. En el menú del Bloc de Notas, dar click en ``Edición`` y después ``Buscar``
-2. En el cuadro de diálogo, colocar un símbolo de  ``>``
-3. Dar Enter antes de cada ``>`` que encuentres
-4. Editar los headers por nombres más sencillos (pero informativos)
-5. Dar un enter (o salto de línea) para separar las secuencias nucleotídicas de los headers
-6. Guarda el archivo editado ``(Ctrl+G)``
-
-## 4. Herramienta de Alineamiento BLAST
-
-1. De tu archivo ``stx1_todas.fasta``, copiar el No. de acceso de tu último registro ``AB012101.1``
-2. Ingresar al NCBI, seleccionar la base de datos Nucleotide  y pegar el No. de Acceso en  el cuadro de diálogo
-3. Ubicar los siguientes datos:
- - Publicación relacionada
- - Año de publicación o año de registro de la secuencia
-4. En la parte superior izquierda, dar click en el link FASTA
-5. Copiar en tu portapapeles el total de la secuencia
-6. Ingresar en tu navegador a la página de BLAST https://blast.ncbi.nlm.nih.gov/Blast.cgi
-7. Dar click en ``Nucleotide BLAST``
-8. Pegar la secuencia en el cuadro de diálogo
-9. Dar click en el botón BLAST (parte inferior de la página)
-
-#### Discusión
-
-- ¿Cuál es el primer Hit encontrado?
-- ¿Con qué tipo de secuencias alínea nuestra búsqueda?
-
-## 5. Ejercicio Final
-En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, localiza los iniciadores llamados ``slt-I`` (diseñados para identificar la toxina Shiga-Like en _E. coli_ ) y realiza un BLAST para cada uno de ellos. Únicamente con los datos arrojados por BLAST, ¿Consideras confiables a estos iniciadores?
+>¿Qué hits aparecen?
+>¿Qué valor de E-value aparecen?
 
 
 
-## 6. Evaluación de Primers
+## 5. Evaluación de Primers
 
 ### Parte 1
 
@@ -244,7 +204,7 @@ En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, l
 2. Ingresar al NCBI: https://www.ncbi.nlm.nih.gov/
 3. Base de datos Nucleotide
 
-### 6.1 Ejercicio 1
+### 5.1 Ejercicio 1
 1. Teclear el número de acceso U15608
 2. Copiar la secuencia completa
 3. Ingresar a Pimer3 http://bioinfo.ut.ee/primer3-0.4.0/
@@ -253,7 +213,7 @@ En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, l
 6. Dar click en Pick primers y discutir el resultado.
 7. Con lo que has aprendido hasta ahora, intenta mejorar los parámetros obtenidos.
 
-### 6.2 Ejercicio 2
+### 5.2 Ejercicio 2
 1. Teclear el número de acceso NC003453
 2. Copiar la secuencia completa
 3. Ingresar a Pimer3 http://bioinfo.ut.ee/primer3-0.4.0/
