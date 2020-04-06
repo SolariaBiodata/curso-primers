@@ -235,7 +235,7 @@ En la base de datos PubMed del NCBI, busca el artículo con ID: ``PMC168144``, l
 
 
 
-### 6 Evaluación de Primers
+## 6. Evaluación de Primers
 
 ### Parte 1
 
