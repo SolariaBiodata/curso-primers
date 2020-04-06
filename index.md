@@ -25,28 +25,28 @@
 
 ### 1.1.1 Ajuste de Parámetros
 1. Ajustar los siguientes parámetros
-2. Seleccionar 58, 60 y 63 °C (Min, Opt, Max) en Primer Tm
-3. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-4. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
-5. Colocar Max poly X en tres (3)
+2. Seleccionar ``58, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
+3. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+4. Colocar ``dos (2)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+5. Colocar `Max poly X en ``tres (3)``
 6. Resultado: Producto de 541pb
 7. Discutir valores de Any y 3´
 
 ### 1.1.2 Ajuste de Parámetros (Pt. 2)
 1. Ajustar los siguientes parámetros
-2. Seleccionar 58, 60 y 60 °C (Min, Opt, Max) en Primer Tm
-3. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-4. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
-5. Colocar Max poly X en tres (3)
+2. Seleccionar ``58, 60 y 60 °C (Min, Opt, Max) en Primer Tm``
+3. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+4. Colocar ``dos (2)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+5. Colocar Max poly X en ``tres (3)``
 6. Resultado: Producto de 996pb
 7. Discutir valores de Any y 3´
 
 ### 1.1.3 Ajuste de Parámetros (Pt. 3)
 1. Ajustar los siguientes parámetros
-2. Seleccionar 59, 60 y 60 °C (Min, Opt, Max) en Primer Tm
-3. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-4. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
-5. Colocar Max poly X en tres (3)
+2. Seleccionar ``59, 60 y 60 °C (Min, Opt, Max) en Primer Tm``
+3. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+4. Colocar ``dos (2)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+5. Colocar Max poly X en ``tres (3)``
 6. Resultado: No se generan Primers
 7. Discutir valores de Any y 3´
 
@@ -55,30 +55,30 @@
 ### 1.2.1
 1. Ajustar los siguientes parámetros
 2. Colocar en Product Size Ranges 80-120
-3. Seleccionar 57, 60 y 60 °C (Min, Opt, Max) en Primer Tm
-4. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-5. Colocar tres (3) para Max self Complementarity y cero (0) para Max 3´self complementarity
-6. Colocar Max poly X en tres (3)
+3. Seleccionar ``57, 60 y 60 °C (Min, Opt, Max) en Primer Tm``
+4. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+5. Colocar ``tres (3)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+6. Colocar Max poly X en ``tres (3)``
 7. Resultado: Producto de 99pb
 8. Discutir valores de Any y 3´
 
 ### 1.2.2
 1. Ajustar los siguientes parámetros
 2. Colocar en Product Size Ranges 80-120
-3. Seleccionar 57, 60 y 63 °C (Min, Opt, Max) en Primer Tm
-4. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-5. Colocar tres (3) para Max self Complementarity y cero (0) para Max 3´self complementarity
-6. Colocar Max poly X en tres (3)
+3. Seleccionar ``57, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
+4. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+5. Colocar ``tres (3)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+6. Colocar Max poly X en ``tres (3)``
 7. Resultado: Producto de 115pb
 8. Discutir valores de Any y 3´
 
 ### 1.2.3
 1. Ajustar los siguientes parámetros
 2. Colocar en Product Size Ranges 80-120
-3. Seleccionar 57, 60 y 63 °C (Min, Opt, Max) en Primer Tm
-4. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-5. Colocar dos (2) para Max self Complementarity y cero (0) para Max 3´self complementarity
-6. Colocar Max poly X en tres (3)
+3. Seleccionar ``57, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
+4. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+5. Colocar ``dos (2)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+6. Colocar Max poly X en ``tres (3)``
 7. Resultado: No se generan primers
 8. Discutir valores de Any y 3´
 
@@ -88,34 +88,34 @@
 1. Ajustar los siguientes parámetros
 2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
 3. Colocar en Product Size Ranges 80-120
-4. Seleccionar 57, 60 y 63 °C (Min, Opt, Max) en Primer Tm
-5. Seleccionar 45, 50 y 55 (Min, Opt, Max) para el Primer GC%
-6. Colocar tres (3) para Max self Complementarity y cero (0) para Max 3´self complementarity
-7. Colocar Max poly X en tres (3)
-8. Dirigirse a Hyb Oligo (Internal Oligo) General conditions
-9. Seleccionar 67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo Tm
-10. Ajustar Hyb Oligo Max poly-X a un valor menor a 5 (4)
-11. Ajustar el Hyb Oligo Self Complementarity y Max 3´Self Complementarity a doce (12)
+4. Seleccionar ``57, 60 y 63 °C (Min, Opt, Max) en Primer Tm``
+5. Seleccionar ``45, 50 y 55 (Min, Opt, Max) para el Primer GC%``
+6. Colocar ``tres (3)`` para Max self Complementarity y ``cero (0)`` para Max 3´self complementarity
+7. Colocar Max poly X en ``tres (3)``
+8. Dirigirse a ``Hyb Oligo (Internal Oligo) General conditions``
+9. Seleccionar ``67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo Tm``
+10. Ajustar Hyb Oligo Max poly-X a un valor ``menor a 5 (4)``
+11. Ajustar el Hyb Oligo Self Complementarity y Max 3´Self Complementarity a ``doce (12)``
 12. Resultado: Producto de 115pb
 13. Discutir valores de Any y 3´
 
 ### 1.3.2 Ejercicio 2
 1. Ajustar los siguientes parámetros
 2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
-3. Dirigirse a Hyb Oligo (Internal Oligo) General conditions
-4. Seleccionar 67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo
-5. Ajustar Hyb Oligo Max poly-X a un valor menor a 5 (4)
-6. Ajustar el Hyb Oligo Self Complementarity a cinco (5) y Max 3´Self Complementarity a cero (0)
+3. Dirigirse a ``Hyb Oligo (Internal Oligo) General conditions``
+4. Seleccionar ``67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo``
+5. Ajustar Hyb Oligo Max poly-X a un valor ``menor a 5 (4)``
+6. Ajustar el Hyb Oligo Self Complementarity a ``cinco (5)`` y Max 3´Self Complementarity a ``cero (0)``
 7. Resultado: Producto de 99pb
 8. Discutir valores de Any y 3
 
 ### 1.3.3 Ejercicio 3
 1. Ajustar los siguientes parámetros
 2. Marcar el cuadro Pick hybridization probe (internal oligo), or use below y mantener las mismas condiciones del ejercicio 2 (PCR tiempo real sin sondas)
-3. Dirigirse a Hyb Oligo (Internal Oligo) General conditions
-4. Seleccionar 67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo
-5. Ajustar Hyb Oligo Max poly-X a un valor menor a 5 (4)
-6. Ajustar el Hyb Oligo Self Complementarity a tres (3) y Max 3´Self Complementarity a cero (0)
+3. Dirigirse a ``Hyb Oligo (Internal Oligo) General conditions``
+4. Seleccionar ``67, 70 y 73 °C (Min, Opt, Max) en Hyb Oligo``
+5. Ajustar Hyb Oligo Max poly-X a un valor ``menor a 5 (4)``
+6. Ajustar el Hyb Oligo Self Complementarity a ``tres (3)`` y Max 3´Self Complementarity a ``cero (0)``
 7. Resultado: Producto de 99pb
 8. Discutir valores de Any y 3
 
