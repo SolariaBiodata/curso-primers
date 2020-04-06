@@ -163,10 +163,10 @@ Para poder realizar este ejercicio, necesitaremos:
 ## 3. Información de secuencias y descarga de archivos fasta
 
 ###  3.1 Búsqueda de secuencias específicas
-1. En la base de datos >nucleotide buscar ``SARS-COV-2 AND S AND complete`` 
+1. En la base de datos nucleotide buscar ``SARS-COV-2 AND S AND complete`` 
 > ¿Qué secuencias aparecen?
 
-2. Acceder al primer registro y buscar la proteína "S"
+2. Acceder al primer registro y buscar la ``proteína "S"``
 3. Dar click en la palabra ``gene`` al lado de la secuencia de la proteína
 4. En la parte inferior, dar click en ``Display FASTA``
 5. Copiar la secuencia
