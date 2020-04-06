@@ -162,7 +162,7 @@ Para poder realizar este ejercicio, necesitaremos:
 
 ## 3. Información de secuencias y descarga de archivos fasta
 
-###  3.1 Búsqueda de secuencias específicas
+###  3.1 Búsqueda de secuencias específicas - BLAST
 1. En la base de datos nucleotide buscar ``SARS-COV-2 AND S AND complete`` 
 > ¿Qué secuencias aparecen?
 
@@ -176,7 +176,7 @@ Para poder realizar este ejercicio, necesitaremos:
 #### Discusión
 >¿Qué resultados aparecen?
 
-###Descarga de secuencias (hits) desde BLAST
+### 3.2 Descarga de secuencias (hits) desde BLAST
 1. Selecciona (tick) 5 secuencias de tu interés
 2. Da click en ``Download`` --> ``FASTA (aligned sequences)``
 3. Guarda las secuencias en tu computadora
