@@ -48,12 +48,13 @@ Para poder realizar este ejercicio, necesitaremos:
 1. En la base de datos nucleotide buscar ``SARS-COV-2 AND S AND complete`` 
 > ¿Qué secuencias aparecen?
 
-2. Acceder al primer registro y buscar la ``proteína "S"``
-3. Dar click en la palabra ``gene`` al lado de la secuencia de la proteína
-4. En la parte inferior, dar click en ``Display FASTA``
-5. Copiar la secuencia
-6. Ingresar a BLAST
-7. Pegar la secuencia y en la parte inferior dar click en ``BLAST``
+2. En el menú del lado izquierdo, dar click en ``RefSeq``
+3. Acceder al primer registro y buscar la ``proteína "S"``
+4. Dar click en la palabra ``gene`` al lado de la secuencia de la proteína
+5. En la parte inferior, dar click en ``Display FASTA``
+6. Copiar la secuencia
+7. Ingresar a BLAST
+8. Pegar la secuencia y en la parte inferior dar click en ``BLAST``
 
 #### Discusión
 >¿Qué resultados aparecen?
