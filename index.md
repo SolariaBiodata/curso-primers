@@ -203,13 +203,13 @@ Para poder realizar este ejercicio, necesitaremos:
 
 #### NCBI
 1. Abrir el árticulo: ``Sánchez-Navarro JA, Aparicio F, Herranz MC, Minafra A, Myrta A, Pallás V (2005) Simultaneus detection and identification of eight Stone fruit viruses by one-step RT-PCR. European Journal of Plant Pathology 111:77-84.``
-2. Ingresar al NCBI: https://www.ncbi.nlm.nih.gov/
+2. Ingresar a [NCBI](https://www.ncbi.nlm.nih.gov/)
 3. Base de datos Nucleotide
 
 ### 5.1 Ejercicio 1
 1. Teclear el número de acceso ``U15608``
 2. Copiar la secuencia completa
-3. Ingresar a Pimer3 http://bioinfo.ut.ee/primer3-0.4.0/
+3. Ingresar a [Pimer3](http://bioinfo.ut.ee/primer3-0.4.0/)
 4. Pegar la secuencia copiada anteriormente en el cuadro del programa
 5. Seleccionar la casilla Pick left primer, or use left primer below y colocar los primers del artículo para el virus ApMV
 6. Dar click en Pick primers y discutir el resultado.
@@ -218,7 +218,7 @@ Para poder realizar este ejercicio, necesitaremos:
 ### 5.2 Ejercicio 2
 1. Teclear el número de acceso ``NC003453``
 2. Copiar la secuencia completa
-3. Ingresar a Pimer3 http://bioinfo.ut.ee/primer3-0.4.0/
+3. Ingresar a [Pimer3](http://bioinfo.ut.ee/primer3-0.4.0/)
 4. Pegar la secuencia copiada anteriormente en el cuadro del programa
 5. Seleccionar la casilla Pick left primer, or use left primer below y colocar los primers del artículo para el virus APLPV
 6. Dar click en Pick primers y discutir el resultado.
