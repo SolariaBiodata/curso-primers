@@ -83,7 +83,7 @@ Para poder realizar este ejercicio, necesitaremos:
 
 #### NCBI
 
-1. Ingresar al NCBI: https://www.ncbi.nlm.nih.gov/
+1. Ingresar a [NCBI](https://www.ncbi.nlm.nih.gov/)
 2. Base de datos Nucleotide
 3. Teclear ``Cycas necrotic stunt virus RNA 2``
 4. Dar click en el número de acceso ``NC_003792.2``
@@ -91,7 +91,7 @@ Para poder realizar este ejercicio, necesitaremos:
 
 #### Primer 3
 
-1. Ingresar a Primer3 http://bioinfo.ut.ee/primer3-0.4.0/
+1. Ingresar a [Primer3](http://bioinfo.ut.ee/primer3-0.4.0/)
 2. Pegar la secuencia copiada anteriormente en el cuadro del programa
 
 
