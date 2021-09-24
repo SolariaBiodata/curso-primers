@@ -1,4 +1,4 @@
-![alt text](https://solariabiodata.com.mx/images/solaria_banner.png "Soluciones de Siguiente Generación")
+![alt text](https://solariabiodata.com.mx/wp-content/uploads/2021/07/logo_red.png "Soluciones de Siguiente Generación")
 # Curso de Diseño de Primers y Sondas - Sesión 1
 
 ## 1. Bases de datos: NCBI
