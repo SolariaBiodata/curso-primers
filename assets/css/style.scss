@@ -1,0 +1,46 @@
+---
+---
+
+/*@import "{{ site.theme }}";*/
+@import "jekyll-theme-cayman";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+html {
+ font-family: 'Open Sans', sans-serif;
+ -ms-text-size-adjust:100%;
+ -webkit-text-size-adjust:100%
+}
+
+h1 {
+  font-family:'Saira', sans-serif;
+}
+
+h2 {
+  font-family:'Saira', sans-serif;
+}
+
+h3 {
+  font-family:'Saira', sans-serif;
+}
+
+.page-header {
+ color:#fff;
+ text-align:center;
+ background-color: rgb(224,73,87);
+ background: linear-gradient(0deg, rgba(224,73,87,1) 0%, rgba(188,32,47,1) 50%); 
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+ color:#bc202f;
+}
+
+a {
+ color: #d22434;
+}
+

@@ -1,3 +1,7 @@
-remote_theme: jekyll/minima
-
-theme: jekyll-theme-tactile
+theme: jekyll-theme-cayman
+#name: Curso de Diseño de Primers y Sondas
+title: Curso de Diseño de Primers y Sondas
+description: [Sitio de recursos de apoyo para el curso]
+markdown: kramdown
+plugins:
+  - jemoji
